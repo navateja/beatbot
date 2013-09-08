@@ -1,0 +1,114 @@
+/*
+Syntax error: File to import not found or unreadable: modular-scale.
+              Load paths:
+                /home/navateja/beatbot/app/assets/stylesheets
+                /home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+                Sass::Rails::Importer(/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/gumby-framework-0.0.1/vendor/assets/stylesheets/gumby.css)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/application.css)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/gumby.css)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/style.css)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_base.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_typography.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale/lib)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale/lib/modular-scale.rb)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale/stylesheets)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale/stylesheets/_modular-scale.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math/lib)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math/lib/sassy-math.rb)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math/stylesheets)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math/stylesheets/_math.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_grid.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_custom.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_tabs.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_buttons.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_tables.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_all.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_icons.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_forms.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_video.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_navbar.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_labels.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_toggles.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_images.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_buttons.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_strip-units.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_typography.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_height-calc.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_all.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_line-and-height.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_visibility.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_forms.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_grid-calc.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_semantic-grid.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_responsivity.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_clearfix.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_breakpoints.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/_lists.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/_settings.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/icons)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/icons/_entypo-icon-list.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/icons/_entypo.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/gumby.scss)
+                Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_fonts.scss)
+        on line 21 of /home/navateja/beatbot/app/assets/stylesheets/sass/gumby.scss
+
+Backtrace:
+/home/navateja/beatbot/app/assets/stylesheets/sass/gumby.scss:21
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:67:in `rescue in import'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:45:in `import'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `block in visit'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/tree/root_node.rb:20:in `render'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/engine.rb:315:in `_render'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/sass-3.2.10/lib/sass/../sass/engine.rb:262:in `render'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/commands/update_project.rb:45:in `perform'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/bin/compass:19:in `load'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/bin/compass:19:in `<main>'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/bin/ruby_noexec_wrapper:14:in `eval'
+/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/bin/ruby_noexec_wrapper:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: modular-scale.\A               Load paths:\A                 /home/navateja/beatbot/app/assets/stylesheets\A                 /home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A                 Sass::Rails::Importer(/home/navateja/.rvm/gems/ruby-1.9.2-p180-patched/gems/gumby-framework-0.0.1/vendor/assets/stylesheets/gumby.css)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/application.css)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/gumby.css)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/style.css)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_base.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_typography.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale/lib)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale/lib/modular-scale.rb)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale/stylesheets)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/modular-scale/stylesheets/_modular-scale.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math/lib)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math/lib/sassy-math.rb)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math/stylesheets)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/extensions/sassy-math/stylesheets/_math.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_grid.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_custom.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_tabs.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_buttons.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_tables.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_all.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_icons.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_forms.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_video.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_navbar.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_labels.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_toggles.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/ui/_images.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_buttons.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_strip-units.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_typography.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_height-calc.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_all.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_line-and-height.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_visibility.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_forms.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_grid-calc.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_semantic-grid.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_responsivity.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_clearfix.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/functions/_breakpoints.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/_lists.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/_settings.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/icons)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/icons/_entypo-icon-list.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/var/icons/_entypo.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/gumby.scss)\A                 Sass::Rails::Importer(/home/navateja/beatbot/app/assets/stylesheets/sass/_fonts.scss)\A         on line 21 of /home/navateja/beatbot/app/assets/stylesheets/sass/gumby.scss"; }

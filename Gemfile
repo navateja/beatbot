@@ -13,14 +13,19 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
   gem 'uglifier', '>= 1.0.3'
+  gem 'compass-rails'
+  gem 'asset_sync'
 end
 
 gem 'jquery-rails'
+gem 'execjs'
+gem 'therubyracer'
+gem 'eco'
+gem 'tinymce-rails', '~>3.5.2'
+gem 'rails-backbone', :git => 'git://github.com/tarun123/backbone-rails.git'
+gem "modernizr-rails"
+gem 'gumby-framework'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
