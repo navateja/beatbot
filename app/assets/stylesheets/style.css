@@ -5,10 +5,44 @@ However, this blank file is available if you prefer
 
 
 .beatbot-navbar{
-	position: fixed;
-	bottom: 0px;
-	height: 40px;
+	height: 60px;
 	min-height: 0px !important;
-	margin-bottom: 0px !important;
-	background: #fff !important;
+	margin-bottom: 5px !important;
+	outline: 5px solid rgba(0, 0, 0, 0.5);
 }
+
+.beatbot-navbar ul li{
+	color: #fff !important;
+}
+
+.beatbot-navbar ul li:hover > a,
+.beatbot-navbar ul li:active > a{
+	background: #e3e3e3	 !important;
+	color: #555;
+	text-shadow: none !important;
+}
+
+.form_container{
+	background: url('text_to_playlist.jpg');
+	height: 590px;
+}
+
+.form_background{
+	position: relative;
+	top: 50px;
+	left: 100px;
+	margin-left: 150px;
+	border-radius: 10px;
+	width: 800px;
+	height: 500px;	
+	text-align: center;
+	padding: 30px;
+}
+
+.form_background .other_than_inputs{
+	margin-left: 100px;
+	color: #fff !important;
+	font-size: 80px;
+}
+
+

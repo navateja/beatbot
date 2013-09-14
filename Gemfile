@@ -26,6 +26,7 @@ gem 'tinymce-rails', '~>3.5.2'
 gem 'rails-backbone', :git => 'git://github.com/tarun123/backbone-rails.git'
 gem "modernizr-rails"
 gem 'gumby-framework'
+gem 'ruby-debug19', :require => 'ruby-debug'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

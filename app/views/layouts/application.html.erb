@@ -8,7 +8,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= yield %>
+	<div class="beatbot-navbar navbar" id="nav1">
+	  <div class="row">
+	    
+	    <h6 class="four columns logo">
+	      <a href="/">
+	        <!-- <img src="img/gumby_mainlogo.png" gumby-retina /> -->
+	        BeatBot
+	      </a>
+	    </h6>
+	    <ul class="eight columns" style="float:right;">
+				<li class="three columns"><a href=""><i class="icon-music"></i>Features</a></li>
+				<li class="three columns"><a href=""><i class="icon-download"></i> Download</a> </li>
+				<li class="three columns"><a href=""><i class="icon-info-circled"></i> About</a> </li>
+			</ul>
+	  </div>
+	  
+		 <div id="beatbot_content">
+		 </div>
+	  <%= yield %>
+	 </div>
 
 </body>
 </html>

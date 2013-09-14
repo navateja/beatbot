@@ -24,3 +24,9 @@
 //= require gumby/libs/ui/gumby.tabs
 //= require gumby/libs/ui/gumby.toggleswitch
 //= require gumby/libs/ui/jquery.validation
+//= require jquery.ba-cond.min
+//= require jquery.slitslider
+//= require underscore
+//= require backbone
+//= require backbone_rails_sync
+//= require beatbot

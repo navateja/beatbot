@@ -1,7 +1,13 @@
 Beatbot::Application.routes.draw do
+  resources :searches
+
+
+  resources :songs
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
-
+  #match 'text_to_playlist' => 'searches#new'
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action

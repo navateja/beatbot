@@ -1,0 +1,20 @@
+<div class="form_container">
+	<div class="form_background">
+		<div class="other_than_inputs">
+			
+			<i class="icon-doc-text"></i>
+			<i class="icon-right-thin"></i>
+			<i class="icon-music"></i>
+			<br/><br/><br/>
+			<div style="font-size:20px">(text -> playlist)</div>
+		
+		</div>
+		<br/><br/><br/>
+		
+			<br/>
+		<li class="append field">
+	    <input class="text input dev-create_playlist_input" />
+	    <div class="medium secondary btn dev-create_playlist_button"><a href="#"> Create playlist </a></div>
+	  </li>
+	</div>
+</div>

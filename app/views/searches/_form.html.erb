@@ -1,0 +1,28 @@
+<%= form_for(@search) do |f| %>
+  <% if @search.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@search.errors.count, "error") %> prohibited this search from being saved:</h2>
+
+      <ul>
+      <% @search.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <!--
+  <li class="append field">
+    <div class="field">
+      <%= f.label :songs %><br />
+      <%= f.text_field :songs, :class => "text input" %>
+    </div>
+    <div class="actions medium secondary btn">
+      <%= f.submit :value => "Create playlist" %>
+    </div>
+  </li>
+-->
+  <li class="append field">
+    <%= f.text_field :songs, :class => "text input" %>
+    <div class="medium secondary btn"><%= f.submit :value => "Create playlist" %></div>
+  </li>
+<% end %>

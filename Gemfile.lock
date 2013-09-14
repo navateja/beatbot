@@ -37,6 +37,7 @@ GEM
     activesupport (3.2.9)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    archive-tar-minitar (0.5.2)
     arel (3.0.2)
     asset_sync (0.5.4)
       activemodel
@@ -50,6 +51,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    columnize (0.3.6)
     compass (0.12.2)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
@@ -89,6 +91,8 @@ GEM
     jruby-pageant (1.0.2)
     json (1.8.0)
     libv8 (3.16.14.3)
+    linecache19 (0.5.12)
+      ruby_core_source (>= 0.1.4)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -128,7 +132,17 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.5)
+    ruby-debug-base19 (0.11.25)
+      columnize (>= 0.3.1)
+      linecache19 (>= 0.5.11)
+      ruby_core_source (>= 0.1.4)
+    ruby-debug19 (0.11.6)
+      columnize (>= 0.3.1)
+      linecache19 (>= 0.5.11)
+      ruby-debug-base19 (>= 0.11.19)
     ruby-hmac (0.4.0)
+    ruby_core_source (0.1.5)
+      archive-tar-minitar (>= 0.5.2)
     sass (3.2.10)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -169,6 +183,7 @@ DEPENDENCIES
   modernizr-rails
   rails (= 3.2.9)
   rails-backbone!
+  ruby-debug19
   sass-rails (~> 3.2.3)
   sqlite3
   therubyracer
