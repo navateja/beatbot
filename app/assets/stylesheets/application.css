@@ -13,4 +13,6 @@
  *= require slider-custom
  *= require gumby
  *= require /sass
+ *= require token-input
+ *= require token-input-mac
  */

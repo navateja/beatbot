@@ -1,4 +1,7 @@
 Beatbot::Application.routes.draw do
+  resources :playlists
+
+
   resources :searches
 
 

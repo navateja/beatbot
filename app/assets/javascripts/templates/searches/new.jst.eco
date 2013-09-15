@@ -11,10 +11,9 @@
 		</div>
 		<br/><br/><br/>
 		
-			<br/>
-		<li class="append field">
-	    <input class="text input dev-create_playlist_input" />
-	    <div class="medium secondary btn dev-create_playlist_button"><a href="#"> Create playlist </a></div>
-	  </li>
+    <input class="text input dev-create_playlist_input" placeholder="Enter song name" />
+    <br/>
+    <div class="medium secondary btn dev-create_playlist_button"><a href="#"> Create playlist </a></div>
+	  
 	</div>
 </div>

@@ -26,7 +26,9 @@
 //= require gumby/libs/ui/jquery.validation
 //= require jquery.ba-cond.min
 //= require jquery.slitslider
+//= require jquery.tokeninput
 //= require underscore
 //= require backbone
 //= require backbone_rails_sync
 //= require beatbot
+

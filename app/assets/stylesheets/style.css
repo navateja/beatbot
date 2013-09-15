@@ -33,16 +33,44 @@ However, this blank file is available if you prefer
 	left: 100px;
 	margin-left: 150px;
 	border-radius: 10px;
-	width: 800px;
+	width: 900px;
 	height: 500px;	
 	text-align: center;
 	padding: 30px;
 }
 
 .form_background .other_than_inputs{
-	margin-left: 100px;
+	margin-left: 30px;
 	color: #fff !important;
 	font-size: 80px;
 }
 
+/*.form_background ul li.as-original{
+	display: inline-block !important;
+	color: #000 !important;
+	height: 45px !important;
+	width: 800px;
+	line-height: 45px !important;
+}
 
+.form_background ul li.as-original input{
+	height: 35px !important;
+	width: 800px !important;
+}*/
+
+
+.form_background ul.as-selections li{
+	color: #2b3840 !important;
+}
+
+.token-input-dropdown-mac{
+	width: 740px;
+}
+
+.token-input-list-mac{
+	background: #fff !important;
+}
+
+.token-input-token-mac{
+	height: 30px !important;
+}

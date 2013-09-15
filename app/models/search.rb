@@ -1,3 +1,6 @@
 class Search < ActiveRecord::Base
- attr_accessor :songs
+	
+	def self.get_suggestions(query)
+  	[{:name => "abc", :title => "abc", :id => "123"}, {:name => "adf", :title => "adf", :id => "456"}]
+ 	end 
 end

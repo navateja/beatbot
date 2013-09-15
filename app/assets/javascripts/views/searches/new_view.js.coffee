@@ -12,12 +12,16 @@ class BeatBot.Views.Searches.NewView extends Backbone.View
     e.preventDefault()
     songs_list = @$(".dev-create_playlist_input").val()
     $.ajax
-      url: '/searches?search='+songs_list
+      url: '/playlists?playlist='+songs_list
       type: 'POST'
       success: (data, textStatus, xhr) =>
       error: (data) ->
 
+  setup_auto_suggest: () =>
+    @$('.dev-create_playlist_input').tokenInput '/searches',
+      theme: "mac"
 
 
   render: () =>
     @$el.html(@template())
+    @setup_auto_suggest()
