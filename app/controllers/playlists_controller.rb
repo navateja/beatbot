@@ -40,8 +40,8 @@ class PlaylistsController < ApplicationController
   # POST /playlists
   # POST /playlists.json
   def create
-    @playlist = Playlist.new(params[:playlist])
-
+    @playlist = Playlist.new()
+    @playlist.create_playlist(params[:playlist])
     respond_to do |format|
       if @playlist.save
         format.html { redirect_to @playlist, notice: 'Playlist was successfully created.' }

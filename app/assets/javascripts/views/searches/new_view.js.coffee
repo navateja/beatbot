@@ -9,11 +9,13 @@ class BeatBot.Views.Searches.NewView extends Backbone.View
     'click .dev-create_playlist_button': 'create_playlist'
 
   create_playlist: (e) =>
-    e.preventDefault()
-    songs_list = @$(".dev-create_playlist_input").val()
+    e.preventDefault()   
     $.ajax
-      url: '/playlists?playlist='+songs_list
+      url: '/playlists'
       type: 'POST'
+      dataType: 'json'
+      data:
+        playlist: @$('.dev-create_playlist_input').tokenInput("get")
       success: (data, textStatus, xhr) =>
       error: (data) ->
 

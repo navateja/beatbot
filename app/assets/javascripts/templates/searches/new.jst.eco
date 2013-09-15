@@ -11,7 +11,7 @@
 		</div>
 		<br/><br/><br/>
 		
-    <input class="text input dev-create_playlist_input" placeholder="Enter song name" />
+    <input class="text input dev-create_playlist_input" placeholder="Enter song name" name="playlist[playlist]"/>
     <br/>
     <div class="medium secondary btn dev-create_playlist_button"><a href="#"> Create playlist </a></div>
 	  
