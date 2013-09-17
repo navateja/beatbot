@@ -4,7 +4,7 @@ class BeatBot.Routers.ApplicationRouter extends Backbone.Router
   initialize: (options) ->
 
   routes:
-    'searches/new': 'text_to_playlist'
+    'text_to_playlist': 'text_to_playlist'
 
   text_to_playlist: () =>
     @view = new BeatBot.Views.Searches.NewView()

@@ -17,7 +17,7 @@ class Search < ActiveRecord::Base
 
 		r = JSON.parse(res_str, :quirks_mode => true)
 		r['data']['items'].each do |x|
-			final_arr << {:id => x['id'], :name => x['title']} 
+			final_arr << {:id => x['id'], :name => x['title'], :url => "http://www.youtube.com/watch?v="+x['id']} 
 		end
 		final_arr
 	end

@@ -24,25 +24,26 @@ However, this blank file is available if you prefer
 
 .form_container{
 	background: url('text_to_playlist.jpg');
-	height: 590px;
+	height: auto;
 }
 
 .form_background{
 	position: relative;
-	top: 50px;
 	left: 100px;
 	margin-left: 150px;
 	border-radius: 10px;
 	width: 900px;
-	height: 500px;	
+	height: auto;	
 	text-align: center;
+	background-color: rgba(0,0,0,0.5);
 	padding: 30px;
 }
 
 .form_background .other_than_inputs{
-	margin-left: 30px;
+	
 	color: #fff !important;
 	font-size: 80px;
+	width:100%;
 }
 
 /*.form_background ul li.as-original{
@@ -64,7 +65,7 @@ However, this blank file is available if you prefer
 }
 
 .token-input-dropdown-mac{
-	width: 740px;
+	width: 840px;
 }
 
 .token-input-list-mac{
@@ -73,4 +74,16 @@ However, this blank file is available if you prefer
 
 .token-input-token-mac{
 	height: 30px !important;
+}
+
+#ytplayer{
+	height: 400px !important;
+}
+
+.white_li{
+	background-color: #fff !important;
+}
+
+.hidden{
+	display: none;
 }

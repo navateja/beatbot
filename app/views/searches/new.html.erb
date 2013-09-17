@@ -1,9 +1,23 @@
+<script type="text/javascript">    
+  window.router = new BeatBot.Routers.ApplicationRouter();
+  Backbone.history.start({pushState: true, hashChange: false});
+</script>
 
+<script type="text/javascript">
 
-  <script type="text/javascript">    
-    window.router = new BeatBot.Routers.ApplicationRouter();
-    Backbone.history.start({pushState: true, hashChange: false});
-  </script>
+	var params = { allowScriptAccess: "always" };
+	swfobject.embedSWF("http://www.youtube.com/v/3vC5TsSyNjU?enablejsapi=1&playerapiid=ytplayer&version=3", "ytplayer", "1300", "600", "8", null, null, params);
+
+	function onYouTubePlayerReady(playerId) {
+    ytplayer = document.getElementById("ytplayer");
+    window.router.view.current_url = "http://www.youtube.com/v/SuHmEo0Bx7Q"
+    ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
+  }
+  function onytplayerStateChange(newState){
+  	window.router.view.go_to_next_video(newState)
+  }
+
+</script>
   
 
 

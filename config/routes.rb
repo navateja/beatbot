@@ -7,7 +7,7 @@ Beatbot::Application.routes.draw do
 
   resources :songs
 
-
+  match 'text_to_playlist' => "searches#new"
   # The priority is based upon order of creation:
   # first created -> highest priority.
   #match 'text_to_playlist' => 'searches#new'

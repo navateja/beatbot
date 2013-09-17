@@ -31,4 +31,5 @@
 //= require backbone
 //= require backbone_rails_sync
 //= require beatbot
+//= require swfobject
 

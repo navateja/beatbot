@@ -1,19 +1,24 @@
 <div class="form_container">
 	<div class="form_background">
 		<div class="other_than_inputs">
-			
-			<i class="icon-doc-text"></i>
-			<i class="icon-right-thin"></i>
-			<i class="icon-music"></i>
-			<br/><br/><br/>
-			<div style="font-size:20px">(text -> playlist)</div>
+			<div id="ytplayer">
+
+
+
+				<p>Download Adobe Flash player to continue</p>
+
+				</div>	
 		
 		</div>
-		<br/><br/><br/>
-		
+		<span style="color:white;">Keep typing to add to the playlist !</span>
+		<div class="medium secondary btn dev-previous hidden"><a href="#"> <i class="icon-to-start" title="Previous"></i> </a></div>
+    <div class="medium secondary btn dev-next hidden"><a href="#"> <i class="icon-to-end" title="Next"></i> </a></div>
+    <br/><br/>
     <input class="text input dev-create_playlist_input" placeholder="Enter song name" name="playlist[playlist]"/>
     <br/>
-    <div class="medium secondary btn dev-create_playlist_button"><a href="#"> Create playlist </a></div>
-	  
+    <span style="color:white;">We're working to solve the problem, and your feedback will help us do so:  </span><span style="color:cyan;">beatbotapp@gmail.com</span><br/>
+	  <span style="color:white;">Coming soon:</span><br/>
+	  <span style="color:cyan;">Previous/Next/Skip, Chrome Extension, More polished UI</span>
+
 	</div>
 </div>

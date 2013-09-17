@@ -450,11 +450,13 @@ $.TokenList = function (input, url_or_data, settings) {
         var this_token = settings.tokenFormatter(item);
         this_token = $(this_token)
           .addClass(settings.classes.token)
-          .insertBefore(input_token);
+          .insertBefore(input_token)
+          .attr("id", "song_"+item.id);
 
         // The 'delete token' button
         $("<span>" + settings.deleteText + "</span>")
             .addClass(settings.classes.tokenDelete)
+            .attr("id", "delete_song_"+item.id)
             .appendTo(this_token)
             .click(function () {
                 delete_token($(this).parent());
